@@ -1,0 +1,10 @@
+APP VaiJá modelagem de Casos de Uso e de Classe
+A startup VaiJá está desenvolvendo um aplicativo de transporte de passageiros. Leia a descrição do sistema e elabore o diagrama de casos de uso:
+•	O passageiro se cadastra no aplicativo e solicita uma corrida informando o endereço de origem e o de destino.
+•	Opcionalmente, o passageiro pode incluir até 3 paradas intermediárias, cada uma com endereço e ordem de visita. Durante a corrida, ele pode incluir ou remover paradas.
+•	O sistema calcula a tarifa estimada antes da confirmação e a recalcula conforme as paradas e o tempo de espera em cada uma.
+•	O motorista se cadastra informando CNH e dados do veículo (placa, modelo, cor e ano). Ele só pode receber corridas após ser aprovado pelo administrador.
+•	O motorista recebe a solicitação e pode aceitá-la ou recusá-la. Passageiro e motorista podem cancelar a corrida antes do início.
+•	A corrida passa pelos status: solicitada, aceita, em andamento, concluída ou cancelada.
+•	Ao final, o pagamento é realizado por cartão, Pix ou dinheiro, e passageiro e motorista avaliam um ao outro com nota de 1 a 5 estrelas e comentário opcional.
+•	O administrador aprova ou bloqueia motoristas e gera relatórios de corridas e faturamento
